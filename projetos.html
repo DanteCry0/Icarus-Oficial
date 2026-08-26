@@ -602,6 +602,10 @@
     background:var(--red);
     display:inline-block;
   }
+  .pd-meta .status.andamento{color:var(--red);}
+  .pd-meta .status.andamento::before{background:var(--red);}
+  .pd-meta .status.concluido{color:#2E7D32;}
+  .pd-meta .status.concluido::before{background:#2E7D32;}
 
   .pd-body{
     display:grid;
@@ -757,7 +761,7 @@
         </div>
         <h2>Mapeamento do Ecossistema Industrial Regional</h2>
         <div class="pd-meta">
-          <span class="status">Em desenvolvimento</span>
+          <span class="status concluido">Concluído</span>
         </div>
       </div>
 
