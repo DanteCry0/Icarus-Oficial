@@ -59,13 +59,16 @@
     gap:10px;
     margin-bottom:18px;
   }
-  .eyebrow::before{
-    content:"";
-    width:22px;
-    height:2px;
-    background:var(--red);
-    display:inline-block;
-  }
+.eyebrow::before{
+  content:"";
+  width:13px;
+  height:18px;
+  background-image:url('fotos/ASA_AMARELA.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  display:inline-block;
+}
 
   /* NAV */
   header{
@@ -415,7 +418,7 @@
   /* CONTATO */
   #contato{background:var(--ink); color:var(--paper); border-bottom:none;}
   #contato .eyebrow{color:#ff8b83;}
-  #contato .eyebrow::before{background:#ff8b83;}
+
   #contato .section-head h2{color:var(--paper);}
   .contact-grid{
     display:grid;
